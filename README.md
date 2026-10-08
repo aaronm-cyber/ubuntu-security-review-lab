@@ -1,4 +1,4 @@
-# ubuntu-security-review-lab
+## Ubuntu Security Review Lab
 Security review of an intentionally misconfigured Ubuntu VM, including investigation, remediation, and verification of security findings.
 ## Overview
 This project documents a security review of an intentionally misconfigured Ubuntu virtual machine. The lab was designed to practice interpreting Linux configurations, identifying security concerns, applying remediation, and verifying that corrective actions were successful.
