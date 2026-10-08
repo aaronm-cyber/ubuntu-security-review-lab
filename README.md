@@ -9,7 +9,7 @@ The environment was intentionally configured using setup commands provided with 
 - Windows 11 host
 - Linux command line
 
-  ## Key Findings
+## Key Findings
   ### 1. Unnecessary Apache2 Web Service
   Apache2 was running and configured to start automatically despite the system having no intended web hosting role. The service was stopped and disabled to reduce unnecessary attack surface.
   ### 2. Overly Permissive Employee Records File
@@ -17,7 +17,7 @@ The environment was intentionally configured using setup commands provided with 
   ### 3. Insecure Backup Credential Storage
   `/etc/company/backup.conf` contained a plaintext backup password and was configured with `644` permissions, allowing group and other users to read the file. Permissions were restricted to `600` , and the plaintext credential was identified as requiring removal from the configuration file and storage through a secure credential-management mechanism.
 
-  ## Skills Demonstrated
+## Skills Demonstrated
   - Linux command line navigation and system investigation
   - Linux file permissions and ownership analysis
   - Principle of least privilege
@@ -29,7 +29,7 @@ The environment was intentionally configured using setup commands provided with 
   - Remediation and post-remediation verification
   - Virtual machine lab setup and snapshot management
  
-  ## Evidence
+## Evidence
   ### Finding 1 - Unnecessary Apache2 Web Service
   Apache2 was identified running and enabled despite the VM having no intended web hosting role.
   
